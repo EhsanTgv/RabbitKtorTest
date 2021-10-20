@@ -1,7 +1,7 @@
 package com.taghavi.rabbitktortest
 
 import android.app.Application
-import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.HiltAndroidApp
 
-@HiltViewModel
+@HiltAndroidApp
 class RabbitKtorApp : Application()
